@@ -1,3 +1,4 @@
+```markdown
 # CampusOne — Demo
 
 A small React + Vite demo UI (CampusOne) built for quick hosting and sharing.
@@ -25,13 +26,17 @@ Quick start (run locally)
 
 Deploying (recommended: Vercel)
 1. Go to https://vercel.com and sign in with your GitHub account.
-2. Click "New Project" → Import Git Repository → choose `nateeokrahist/CampusOne`.
-3. Vercel usually detects Vite automatically. If asked, set:
-   - Framework Preset: Vite
+2. Import repository `nateeokrahist/CampusOne`.
+3. When configuring the project, set:
+   - Framework Preset: Vite (Vercel usually detects this automatically)
    - Build Command: npm run build
    - Output Directory: dist
-4. Deploy and copy the public URL to share on LinkedIn.
+4. Deploy. Vercel will give a public URL you can share on LinkedIn.
 
-Notes
+Notes and tips
 - The project uses the Tailwind CDN in index.html so you don't need to set up Tailwind locally for the demo.
-- If you want a TypeScript version using lucide-react, I can add tsconfig.json and update files for that — say so if you'd like that.
+- If you prefer a TypeScript version (campusone_app.tsx) it requires adding TypeScript and lucide-react; I can give exact changes for that if you want.
+- Add an `og-image.png` at the repo root if you want a nicer preview when posting the Vercel URL to LinkedIn.
+
+If you want me to create a short LinkedIn blurb for the final demo URL, tell me the final URL and I’ll draft one you can copy/paste.
+```
